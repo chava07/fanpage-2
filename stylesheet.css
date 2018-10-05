@@ -1,5 +1,5 @@
 body {
-    background-color: #bce5d8;
+    background-color: #063852;
     margin: 0;
     padding: 0;
 }
@@ -17,11 +17,19 @@ body {
     padding: 20px;
 }
 
+h2{
+    font-family: 'Lora', serif;
+    font-size: 35px;
+    font-style: bold;
+    color: #608090;
+    text-decoration: underline;
+    text-align: center;
+}
 .main {
     font-family: 'Lora', serif;
     font-size: 1.5cm;
     font-style: italic;
-    color: #E6DF44;
+    color: #608090;
     text-align: center;
 }
 
@@ -38,13 +46,22 @@ body {
 #rTitle {
     text-align: center;
 }
-
+div {
+    display: block;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 a {
     font-family: 'Lora', serif;
     font-weight: bold;
     text-decoration: none;
     font-size: 20px;
-    color: #E6DF44;
+    color: #608090;
 
 }
 
@@ -79,4 +96,45 @@ a {
     margin-top: 20px;
     height: 500px;
     width: 100%;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gal{
+    margin: 30px;
+    border: 2px solid #E8ECEF;
+    width: 200px;
+    height: 226px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #E8ECEF;
+    background-color: #03151E;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social-image {
+    width: 30px;
+    margin: 15px;
+}
+.aboutMain {
+    display: flex;
+    height: 70%;
+}
+#left{
+    width: 50%;
+    font-size: 20px;
+    padding-right: 25px;
+    color: grey;
+}
+#right {
+    height:500px;
+    width: 50%;
+    background-image: url("https://vignette.wikia.nocookie.net/fastandfurious/images/a/a5/ImagesCAY8UW7T.jpg/revision/latest?cb=20150505190301");
 }
